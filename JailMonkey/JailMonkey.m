@@ -97,7 +97,17 @@ RCT_EXPORT_MODULE();
             @"/var/lib/apt",
             @"/var/lib/cydia",
             @"/var/lib/dpkg/info/mobilesubstrate.md5sums",
-            @"/var/log/apt"
+            @"/var/log/apt",
+	    @"/Library//zzzzLiberty.dylib",
+	    @"/Library//SSLKillSwitch2.dylib",   // disable SSL certificate validation
+	    @"/Library//tsProtector.dylib",
+	    @"/electra/libjailbreak.dylib",
+	    @"/electra/libjailbreak.dylib",
+	    @"/Applications/Flex.app",
+	    @"/Library/Frameworks/CydiaSubstrate.framework",
+	    @"/var/mobile/Library/Sileo/sileo.sqlite3",
+	    @"/var/mobile/Library/Cydia/metadata.cb0",
+	    @"eletra"
             ];
 }
 
@@ -157,6 +167,8 @@ RCT_EXPORT_MODULE();
             @"libcycript",
             @"libhooker",
             @"libsparkapplist.dylib",
+	    @"tsProtector.dylib",
+	    @"libjailbreak.dylib",
             @"zzzzLiberty.dylib",
             @"zzzzzzUnSub.dylib"
             ];
